@@ -5,7 +5,7 @@ version := "1.0-SNAPSHOT"
 /**
   * Libraries
   */
-lazy val lychee = Project("silvousplay", file("modules/lychee")).
+lazy val lychee = Project("lychee", file("modules/lychee")).
   settings(APIBuild.libSettings: _*)
 
 /**
