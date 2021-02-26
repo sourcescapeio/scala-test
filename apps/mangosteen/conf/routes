@@ -1,0 +1,3 @@
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /health                                               controllers.HealthController.health()
